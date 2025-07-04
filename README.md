@@ -25,15 +25,6 @@ A fully responsive and production-ready e-commerce frontend built with:
 
 ---
 
-## 📸 Screenshots
-
-### 🖥️ Desktop
-![Screenshot](public/screenshots/home.png)
-![Screenshot](public/screenshots/cart.png)
-![Screenshot](public/screenshots/checkout.png)
-
----
-
 ## 📂 Tech Stack
 
 - [x] **Next.js (App Router)**
