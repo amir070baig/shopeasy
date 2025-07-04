@@ -34,7 +34,7 @@ const dummyProducts = [
 
 ]
 
-export default function productDetailPage(){
+export default function ProductDetailPage(){
   const {id} = useParams()
   const dispatch = useDispatch<AppDispatch>()
   const product = dummyProducts.find((p) => p.id === id)
