@@ -59,7 +59,7 @@ A fully responsive and production-ready e-commerce frontend built with:
 
 Hi, I’m **Mohd Amir**, a frontend developer passionate about building modern and scalable web apps.
 
-📧 Email: your.email@example.com  
+📧 Email: amirbaig070@gmail.com  
 🔗 [LinkedIn](www.linkedin.com/in/mohd-amir-baig-394243369)  
 🐱 [GitHub](https://github.com/amir070baig)
 
