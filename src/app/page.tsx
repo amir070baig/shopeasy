@@ -1,7 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { dummyProducts } from "@/data/products";
 
 export default function Home(){
+
+
   return(
     <div className="space-y-6">
       <section className="flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-blue-100 to-purple-100 rounded-2xl px-6 py-12">
@@ -38,16 +41,16 @@ export default function Home(){
       <section>
         <h2 className="text-2xl font-semibold mb-6">Best Sellers</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-          {[1,2,3,4].map((productId) => (
+          {dummyProducts.map((product) => (
             <Link
-              href={`/products/{productId}`}
-              key={productId}
+              href={`/products/${product.id}`}
+              key={product.id}
               className="bg-white rounded-xl p-4 border hover:shadow transition"
             >
               <div>
-                <h3>Product {productId}</h3>
-                <p>Some product description</p>
-                <span>$99.00</span>
+                <h3>{product.name}</h3>
+                <p>{product.description}</p>
+                <span>${product.price}</span>
               </div>
             </Link>
           ))}

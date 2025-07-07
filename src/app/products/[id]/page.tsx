@@ -5,34 +5,35 @@ import { useDispatch } from 'react-redux'
 import { AppDispatch } from '@/store/index'
 import { addToCart } from '@/store/cartSlice'
 import toast from 'react-hot-toast' 
+import { dummyProducts } from '@/data/products'
 
-const dummyProducts = [
-    {
-    id: '1',
-    name: 'Wireless Headphones',
-    description: 'High-quality noise-cancelling over-ear headphones.',
-    price: 199,
-  },
-  {
-    id: '2',
-    name: 'Smart Watch',
-    description: 'Track fitness, monitor heart rate, and more.',
-    price: 149,
-  },
-  {
-    id: '3',
-    name: 'Bluetooth Speaker',
-    description: 'Crystal-clear sound in a compact body.',
-    price: 89,
-  },
-  {
-    id: '4',
-    name: 'Gaming Mouse',
-    description: 'Precision mouse with programmable buttons.',
-    price: 59,
-  },
+// const dummyProducts = [
+//     {
+//     id: '1',
+//     name: 'Wireless Headphones',
+//     description: 'High-quality noise-cancelling over-ear headphones.',
+//     price: 199,
+//   },
+//   {
+//     id: '2',
+//     name: 'Smart Watch',
+//     description: 'Track fitness, monitor heart rate, and more.',
+//     price: 149,
+//   },
+//   {
+//     id: '3',
+//     name: 'Bluetooth Speaker',
+//     description: 'Crystal-clear sound in a compact body.',
+//     price: 89,
+//   },
+//   {
+//     id: '4',
+//     name: 'Gaming Mouse',
+//     description: 'Precision mouse with programmable buttons.',
+//     price: 59,
+//   },
 
-]
+// ]
 
 export default function ProductDetailPage(){
   const {id} = useParams()
@@ -52,7 +53,7 @@ export default function ProductDetailPage(){
         <div>
           <h1 className="text-3xl font-bold mb-2">{product.name}</h1>
           <p className="text-gray-600 mb-4">{product.description}</p>
-          <p className="text-xl font-semibold text-blue-600 mb-6">{product.price}</p>
+          <p className="text-xl font-semibold text-blue-600 mb-6">${product.price}</p>
 
           <button
             onClick={handleAddToCart}
