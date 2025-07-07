@@ -6,7 +6,7 @@ export default function Home(){
     <div className="space-y-6">
       <section className="flex flex-col md:flex-row items-center justify-between gap-6 bg-gradient-to-r from-blue-100 to-purple-100 rounded-2xl px-6 py-12">
         <div className="max-w-xl">
-          <h1 className="text-4xl font-bold mb-4">Welcome to ShopEasy</h1>
+          <h1 className="text-gray-800 md:text-5xl text-3xl font-bold">Welcome to ShopEasy</h1>
           <p className="text-lg text-gray-700 mb-6">Discover the best products at the lowest prices. Shop smart, shop easy.</p>
           <Link 
           href="/products"
