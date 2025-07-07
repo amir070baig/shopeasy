@@ -1,36 +1,70 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛍️ ShopEasy – Modern E-commerce Frontend
 
-## Getting Started
+A fully responsive and production-ready e-commerce frontend built with:
 
-First, run the development server:
+- ⚛️ **Next.js** (App Router, SSR)
+- 💨 **Tailwind CSS** (utility-first styling)
+- 🔐 **TypeScript** (type-safe)
+- 🧠 **Redux Toolkit** (global cart state management)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+> 🚀 Live Demo: [shopeasy.vercel.app](https://shopeasy-mwqk61uet-amirs-projects-f1cb3a64.vercel.app)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ Beautiful homepage with hero, categories, best sellers  
+✅ Product listing page with filters and pagination  
+✅ Dynamic product detail page  
+✅ Add to cart, increase/decrease quantity  
+✅ Real-time subtotal + responsive cart page  
+✅ Checkout page with address and payment method (UI only)  
+✅ Toast notifications (add to cart etc.)  
+✅ 100% Responsive Design  
+✅ Built with performance, type safety and scalability in mind  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [x] **Next.js (App Router)**
+- [x] **React**
+- [x] **Redux Toolkit**
+- [x] **Tailwind CSS**
+- [x] **TypeScript**
+- [x] **Vercel** (for deployment)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📚 What I Learned
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Efficient state management using Redux Toolkit
+- Modular, scalable frontend structure using Next.js App Router
+- Advanced Tailwind CSS layouting & responsive design
+- Real-world cart logic and dynamic routing
+- Using Vercel to instantly deploy React projects
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🧠 Future Improvements
+
+- Connect to Firebase/Stripe or node backend for full checkout
+- Add real filters + sort logic
+- User authentication
+- Wishlist / Orders history
+
+---
+
+## 🧑‍💼 About Me
+
+Hi, I’m **Mohd Amir**, a frontend developer passionate about building modern and scalable web apps.
+
+📧 Email: amirbaig070@gmail.com  
+🔗 [LinkedIn](www.linkedin.com/in/mohd-amir-baig-394243369)  
+🐱 [GitHub](https://github.com/amir070baig)
+
+---
+
+## 📎 License
+
+This project is open-source. Feel free to fork and customize.
