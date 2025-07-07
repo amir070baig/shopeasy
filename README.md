@@ -7,7 +7,7 @@ A fully responsive and production-ready e-commerce frontend built with:
 - 🔐 **TypeScript** (type-safe)
 - 🧠 **Redux Toolkit** (global cart state management)
 
-> 🚀 Live Demo: [shopeasy.vercel.app](https://shopeasy-sepia.vercel.app/checkout)
+> 🚀 Live Demo: [shopeasy.vercel.app](https://shopeasy-mwqk61uet-amirs-projects-f1cb3a64.vercel.app)
 
 ---
 
